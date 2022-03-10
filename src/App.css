@@ -1,3 +1,17 @@
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background:#6122C1;
+  width:1200px;
+  max-width:100%;
+  margin:0px auto;
+  text-align:center;
+}
+div#root {
+  background: white;
+  margin-top: 25px;
+  padding: 25px;
+  border: 2px solid black;
+}
 .App {
   text-align: center;
 }

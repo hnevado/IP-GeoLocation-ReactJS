@@ -52,13 +52,13 @@ function Header({setIps,datosIP}) {
  }
 
     return (
-     <React.Fragment>
+       <header>
         <h1 className="textCenter">IP GeoLocation</h1>
         <form method="POST" onSubmit={onSubmit}>
             <input type="text" className="form-control" placeholder="Busca una IP. Ejemplo: 8.8.8.8" onChange={onChange}/>
             <input type="submit" className="btn btn-success" value="Buscar" />
         </form>
-      </React.Fragment>   
+        </header>  
     )
 
 }

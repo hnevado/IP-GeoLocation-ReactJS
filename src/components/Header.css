@@ -1,0 +1,19 @@
+header > h1, header > form {
+    margin-bottom: 30px;
+}
+input.btn.btn-success {
+    width: 200px;
+    max-width: 100%;
+    background: black;
+    border-radius: 0px;
+    margin-top: -1px;
+}
+input.form-control {
+    width: 400px;
+    max-width: 100%;
+    display: inline-block;
+    border-radius: 0px;
+}
+header > h1 {
+    font-weight: 900;
+}
